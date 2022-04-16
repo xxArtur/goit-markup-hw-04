@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
 
     <header class="section-hed">
@@ -25,8 +26,22 @@
                     </ul>
                 </nav>
                     <ul class="main-nav list">
-                        <li class="item"><a href="mailto:info@devstudio.com" class="button primary">info@devstudio.com</a></li>
-                        <li class="item"><a href="tel:+380961111111" class="button tell">+38(096)111 11 11</a></li>
+                        <li class="item">
+                            <a href="mailto:info@devstudio.com" class="button primary contact-link">
+                                <svg class="nav-item-icon">
+                                    <use href="./images/sprite.svg#envelope"></use>
+                                </svg>
+                                info@devstudio.com
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="tel:+380961111111" class="button contact-link">
+                                <svg class="nav-item-icon">
+                                    <use href="./images/sprite.svg#smartphone"></use>
+                                </svg>
+                                +38(096)111 11 11
+                            </a>
+                        </li>
                     </ul>
             </div>
         </div> 
@@ -138,25 +153,47 @@
 
     <!-- Підвал -->
     <footer class="section-footer">
-        <div class="container">
+        <div class="container foter">
+                <div class="container-foter">
             <a href="" class="logo footer"><span class="logo-color">Web</span>Studio</a>
             <div class="address">
                 <p class="p-text">г. Киев, пр-т Леси Украинки, 26</p> 
                 <p class="p-text rgba">info@devstudio.com</p>
-                <p class="p-text rgba">+38(096)111 11 11</p>    
-            </div> 
+                <p class="p-text rgba">+38(096)111 11 11</p>           
+            </div>
+                </div>
+
+            <div class="social">
+                <h3 class="feature-list join">присоединяйтесь</h3>
             <ul class="social-list">
-                <li class="social-item">
-                    <a href="" class="social-link">
-                        <svg class="social-icon"
-                            <use 
+                <li class="social-item>
+                    <a href="#" class="social-link">
+                        <svg class="social-icon">
+                            <use href="./images/sprite.svg#instagram"></use>
+                        </svg>
+                    </a>
+                <li class="social-item>
+                    <a href="#" class="social-link">
+                        <svg class="social-icon">
+                            <use href="./images/sprite.svg#twitter"></use>
+                        </svg>
+                    </a>
+                <li class="social-item>
+                    <a href="#" class="social-link">
+                        <svg class="social-icon">
+                            <use href="./images/sprite.svg#facebook"></use>
+                        </svg>
+                    </a>
+                <li class="social-item>
+                    <a href="#" class="social-link">
+                        <svg class="social-icon">
+                            <use href="./images/sprite.svg#linkedin"></use>
+                        </svg>
                     </a>
                 </li>
-                <li></li>
-                <li></li>
-                <li></li>
             </ul>
-        </div>  
+            </div>  
+            </div>
     </footer>
       
 </body>

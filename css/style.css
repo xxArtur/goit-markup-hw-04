@@ -348,6 +348,7 @@ h1,h2,h3,h4,p{
   border-radius: 4px;
 }
 
+.customers-link.on,
 .customers-link:focus,
 .customers-link:hover {
   border: 1px solid var(--accent-color);
@@ -357,6 +358,11 @@ h1,h2,h3,h4,p{
 .customers-link:focus .customers-icon {
   fill: var(--accent-color);
 }
+
+.customers-link.on .customers-icon {
+  fill: var(--accent-color);
+}
+
 
 .box-customers:not(:last-child) {
   margin-right: 30px;
@@ -501,7 +507,16 @@ h1,h2,h3,h4,p{
   text-align: center;
   letter-spacing: 0.03em;
 
+  color: var(--title-text-color);
+}
+.menu-items .button {
   color:var(--title-text-color);
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 .button.menu {

@@ -318,8 +318,8 @@ h1,h2,h3,h4,p{
 }
 
 .item-feature:not(:last-child) {
- 
-  padding-right: 30px;
+   padding-right: 30px;
+  padding-bottom: 10px;
 }
 
 .list {
@@ -329,6 +329,7 @@ h1,h2,h3,h4,p{
 
 .container-specifics {
   padding-top: 30px;
+
 }
 
 
@@ -351,15 +352,14 @@ h1,h2,h3,h4,p{
 .customers-link.on,
 .customers-link:focus,
 .customers-link:hover {
-  border: 1px solid var(--accent-color);
+  border: 1px solid #2196F3;
+
+
+
   outline: 0px solid var(--accent-color);
 }
 
 .customers-link:focus .customers-icon {
-  fill: var(--accent-color);
-}
-
-.customers-link.on .customers-icon {
   fill: var(--accent-color);
 }
 
@@ -391,6 +391,7 @@ h1,h2,h3,h4,p{
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color:var(--title-text-color);
+  padding-bottom: 10px;
 }
 
 
